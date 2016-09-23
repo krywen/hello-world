@@ -7,9 +7,11 @@ int main()
 	
 	int n=5;
 	int sum=0;
+	int mul = 0;
 	for(int i=0; i<n; i++)
 	{
-		sum += i;	
+		sum += i;
+		mul *= mul;
 	}
 }
 
